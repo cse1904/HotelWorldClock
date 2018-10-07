@@ -8,5 +8,7 @@ public class Clock {
     public Clock(int utcOffset){
         this.utcOffset=utcOffset;
     }
-
+    public int getTime(){
+        return this.localTime;
+    }
 }
